@@ -41,6 +41,7 @@ body {
     padding: 20px 25px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 /* main related styles */
@@ -78,7 +79,7 @@ body {
 }
 
 .hero-sec img {
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 /* My plans related styles */
@@ -105,17 +106,114 @@ body {
 .plans {
     text-align: center;
     margin-top: 10px;
-    
+
 }
-.plans-tittle{
-    color:#151414;
+
+.plans-tittle {
+    color: #151414;
     font-size: 30px;
     margin-bottom: 5px;
 
 
 }
-.plans-description{
-    color:#737272;
+
+.plans-description {
+    color: #737272;
     font-size: 25px;
     margin-top: 20;
+}
+
+.positive {
+    background-image: url('/images/watch.png');
+    width: 1140px;
+    height: 300px;
+    margin: 60px 160px 160px 100px;
+}
+
+.positive-container {
+    width: 1140px;
+    height: 300px;
+    margin: 60px 0px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    border-radius: 8px;
+
+}
+
+.positive-tittle {
+    color: #FFF;
+    text-align: center left;
+    font-size: 40px;
+    width: 459px;
+    padding-left: 60px;
+    padding-top: 60px;
+
+}
+
+.call {
+    color: #F15B22;
+    padding: 20px 36px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+/* footer related styles */
+
+.end-part {
+    background: #151414;
+    width: 1600px;
+    height: 500px;
+}
+
+.end-part {
+    display: flex;
+    justify-items: center;
+    gap: 200px;
+    padding: 130px 230px;
+}
+
+.end-tittle {
+    color: #F8F8F8;
+    font-size: 45px;
+}
+
+.end-description {
+    color: #FFF;
+    font-size: 16px;
+    width: 485px;
+}
+
+.end-details {
+    color: #FFF;
+    font-size: 16px;
+
+}
+
+.subs-tittle {
+    color: #FFF;
+    font-size: 25px;
+}
+
+.contact input {
+    display: block;
+    margin-bottom: 30px;
+    padding: 21px 100px 22px 21px;
+    color: #F3F3F3;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: #151414;
+
+}
+
+.subscribe-btn {
+    color: #F15B22;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
