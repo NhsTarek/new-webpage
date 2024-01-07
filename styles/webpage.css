@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* header related styles */
+
+.banner {
+    background-image: url('/images/banner/banner2.png');
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-details {
+    text-align: right;
+    width: 500px;
+    padding-right: 60px;
+}
+
+.tittle {
+    font-size: 65px;
+    color: #151414;
+    margin-top: 50px;
+    margin-bottom: 2px;
+}
+
+.description {
+    font-size: 16px;
+    color: #444343;
+
+}
+
+.primary-btn {
+    background: #F15B22;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* main related styles */
+
+
+.hero-sec {
+    display: flex;
+    padding: 130px 160px 135px 135px;
+    align-items: center;
+    gap: 130px;
+
+}
+
+.hero-tittle {
+    color: #151414;
+    font-size: 40px;
+    width: 280px;
+    margin-bottom: 0;
+    margin-top: 300px;
+}
+
+.hero-decription {
+    color: #151414;
+    font-size: 16px;
+    width: 420px;
+    margin-top: 20px;
+
+}
+
+.bltpoints {
+    color: #444343;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.hero-sec img {
+    margin-top: 100px;
+}
+
+/* My plans related styles */
+
+
+.plans-wrapper {
+    width: 1600px;
+    height: 3223px;
+}
+
+.myplans {
+    color: #151414;
+    font-size: 40px;
+    text-align: center;
+}
+
+.plans-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.plans {
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.plans-tittle{
+    color:#151414;
+    font-size: 30px;
+    margin-bottom: 5px;
+
+
+}
+.plans-description{
+    color:#737272;
+    font-size: 25px;
+    margin-top: 20;
+}
