@@ -8,7 +8,7 @@ body {
 /* header related styles */
 
 .banner {
-    background-image: url('./images/banner/banner2.png');
+    background-image: url('../images/banner/banner2.png');
     display: flex;
     background-size: cover;
     height: 100vh;
@@ -124,7 +124,7 @@ body {
 }
 
 .positive {
-    background-image: url('./images/watch.png');
+    background-image: url('../images/watch.png');
     width: 1140px;
     height: 300px;
     margin: 60px 160px 160px 100px;
